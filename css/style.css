@@ -29,3 +29,24 @@ a{
     margin-top: 20px;
     font-size: 18px;
 }
+.upper-body{
+    height: 500px;
+    background-color: #1f2937;
+    justify-content: center;
+    color: white;
+}
+img{
+    height: 400px;
+    width: 600px;
+}
+.upper-text{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 50px;
+}
+.upper-header{
+    font-weight: bold;
+    font-size: 40px;
+    
+}
