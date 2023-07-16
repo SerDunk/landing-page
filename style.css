@@ -1,7 +1,8 @@
-*{
+body,html{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
+    padding:0;
+    
     
 }
 .header{
@@ -10,6 +11,8 @@
     background-color: antiquewhite;
     height: 100px;
     background-color: #1f2937;
+    
+    
     
 }
 
@@ -39,6 +42,9 @@ a{
     align-items: center;
     padding: 20px;
 }
+.desc{
+    line-height: 1.5;
+}
 .upper-body img{
     height: 400px;
     width: 600px;
@@ -60,9 +66,10 @@ a{
     background-color: white; 
     color: black; 
     border: 2px solid #008CBA;
-    width: 50px;
+    width: 70px;
     border-radius: 25px;
     margin-top: 20px;
+    font-size: 18px;
   }
   
 .button:hover {
@@ -124,5 +131,53 @@ a{
     font-weight: 600;
     padding: 40px;
     margin-top:150px ;
-    
+}
+.upper-footer{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #03b1eb;
+    max-width: 1000px;
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 100px;
+}
+.card-head{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.sign-up{
+    font-size: 24px;
+    background-color:#03b1eb;
+    border: solid;
+    border-color:white;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer{
+    height: 75px;
+    background-color: #1f2937;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
